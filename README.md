@@ -16,7 +16,7 @@ You'll need to install a few things for this to work. I wrote this shell script 
 brew install ffmpeg curl grep
 ```
 #### Sidenote
-For some reason, on my first try [brew](https://brew.sh "brew") didn't download the full ffmpeg, so I downloaded it directly. Download the ffmpeg binary(.exe for Windows) for your OS from [FFBinaries](https://ffbinaries.com/downloads "FFBinaries") and put that binary inside the same folder as this shell script.
+For some reason, on my first try [brew](https://brew.sh "brew") didn't download the full ffmpeg, so I downloaded it directly. Download the ffmpeg binary(.exe for Windows) for your OS from [FFBinaries](https://ffbinaries.com/downloads "FFBinaries") and put that binary inside``` Apple-Music-Animated-Artwork.```
 
 
 
