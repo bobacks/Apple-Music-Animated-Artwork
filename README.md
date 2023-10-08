@@ -1,6 +1,6 @@
-[TOC]
 
-This script downloads the new style of videos Apple Music is using for album covers. All you need to do is supply the album URL, and it'll download the highest resolution available from .m3u8 format and use FFMPEG to convert it to MP4.
+
+This script downloads the new style of videos Apple Music uses for album covers. All you need to do is supply the album URL, and it'll download the highest resolution available from .m3u8 format and use FFMPEG to convert it to MP4.
 
 You'll need to install a few things for this to work. I wrote this shell script for macOS, but you can use it on other platforms.
 
