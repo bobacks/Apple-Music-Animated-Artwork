@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# You'll need to install a few things
-# Use this if you've installed Brew on your macOS - "brew install ffmpeg curl grep"
-# If you're using this on Windows or Linux, you know what you're doing.
-# Created on 6th of Oct 2023
+# By Boback Shahsafdari
+# v1.0 7th Oct 2023
 
 
 # Check if the URL is provided
@@ -29,5 +27,9 @@ fi
 
 # Use ffmpeg to download and convert the content
 ffmpeg -i "$m3u8_url" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 50 "${title}.mp4"
+
+# OPTIONAL
+# Use ffmpeg binary downloaded to the same folder to download and convert the content
+# ./ffmpeg -i "$m3u8_url" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 50 "${title}.mp4"
 
 echo "Download complete: ${title}.mp4"
