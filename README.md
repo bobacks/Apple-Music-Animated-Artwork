@@ -20,7 +20,7 @@ For some reason, on my first try [brew](https://brew.sh "brew") didn't download 
 
 ## Usage 
 ```html 
-./apple_music_videoalbumcover.sh <Apple Music Album URL>
+./download_from_apple_music.sh <Apple Music Album URL>
 ```
 
 
